@@ -28,7 +28,7 @@ export async function getStaticPaths() {
   return {
     paths: blogs.map(el => ({
       params: {
-        id: el.properties.Property.id
+        id: el.id
       }
     })),
     fallback: "blocking"
