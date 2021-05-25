@@ -28,7 +28,7 @@ const Text = ({ text }) => {
           italic: italic,
           "line-through": strikethrough,
           underline: underline,
-          "bg-red-500 text-white ": code
+          "bg-gray-300 px-2 py-1": code
         })}
         key={id}
       >
